@@ -1,0 +1,79 @@
+﻿# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local environment files
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+ENV/
+
+# Local IDE/editor state
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local Codex/agent/tooling state
+.agents/
+.claude/
+.opencode/
+.superpowers/
+skills-lock.json
+
+# Runtime data and generated analysis outputs
+data/*
+!data/modeling/
+data/modeling/*
+!data/modeling/labels.csv
+
+# Large or private media inputs
+new/
+*.mp4
+*.webm
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.m4v
+*.flv
+*.mpeg
+*.mpg
+
+# Generated reports, figures, and temporary extracts
+data/reports/
+data/results/
+data/tasks/
+data/uploads/
+data/batch_reports/
+data/_runtime_backend/
+*.log
+*.err.log
+.AU_pdf_text.txt
+
+# Model/checkpoint artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pb
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local scratch notes and one-off experiment runners
+*AI不必看.md
+scripts/_run_route_a_progressive.py
+.pytest_tmp/

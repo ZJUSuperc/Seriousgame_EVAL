@@ -1,0 +1,15 @@
+flask>=3.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+tensorflow>=2.8.0
+pillow>=9.0.0
+torch>=2.0.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+timm==0.9.16
+einops==0.7.0
+torchaudio>=2.0.0
+modelscope
+huggingface_hub
+funasr>=1.1.3
